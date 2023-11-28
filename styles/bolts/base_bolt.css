@@ -1,0 +1,80 @@
+* {
+    text-align: center;
+    align-items: center;
+}
+
+#base_bolt {
+    width: 150px;
+    height: 35px;
+    background-color: white;
+}
+
+#yellow_flag {
+    height: 99%;
+    width: 5%;
+    background-color: yellow;
+}
+
+#yello_dashed_flag {
+    height: 50%;
+    background-color: yellow;
+}
+
+#yellow_base_bolt {
+    width: 150px;
+    height: 35px;
+    background-color: yellow;
+}
+
+#green_flag {
+    background-color: green;
+    height: 99%;
+    width: 5%;
+}
+
+#green_base_bolt {
+    width: 150px;
+    height: 35px;
+    background-color: green;
+}
+
+#blue_flag {
+    background-color: blue;
+    height: 99%;
+    width: 5%;
+}
+
+#blue_base_bolt {
+    background-color: blue;
+    width: 150px;
+    height: 35px;
+}
+
+#red_flag {
+    background-color: red;
+    width: 5%;
+    height: 99%;
+}
+
+#red_base_bolt {
+    background-color: red;
+    width: 150px;
+    height: 35px;
+}
+
+#black_flag {
+    background-color: black;
+    height: 99%;
+    width: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    display: block;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}

@@ -1,0 +1,56 @@
+
+#panel {
+    text-align: center;
+    height: 45px;
+    background-color: yellow;
+    color: #000;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+} 
+
+#site_logo {
+    float: left;
+    place-items: left;
+    padding-top: 2px;
+    padding-left: 6px;
+    height: 36px;
+    width: 32px;
+}
+
+#panel > * {
+    margin: 5px;
+}
+
+
+#panel_links {
+    margin-left: 3px;
+    margin-right: 3px;
+    float: right;
+    display: block;
+    height: auto;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+#md_insert_data {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    border-color: #000;
+    border-radius: 2px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#md_insert_data > a {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: blue;
+    background-color: linear-gradient(blue, pink);
+}
