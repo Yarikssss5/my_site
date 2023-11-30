@@ -50,7 +50,13 @@
     text-decoration: none;
 }
 
-.footer {
-    background-color: blue;
+#footer {
+    align-items: center;
+    text-align: center;
     background-color: linear-gradient(blue, pink);
+}
+
+#footer > p {
+    font-family:fantasy ;
+    font-style: italic;
 }
