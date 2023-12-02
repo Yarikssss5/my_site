@@ -8,6 +8,5 @@ export async function open_md(md_path) {
                 .catch((e) => console.log("Error: ", e));
     await init(); // Подгружаем и инициализируем wasm и функции в нём
     md_line = read_md_to_site(md_line);
-    document.querySelector("#md_insert_data").innerHTML = md_line;
-    
+    document.querySelector("#md_insert_data").innerHTML = md_line;   
 }
