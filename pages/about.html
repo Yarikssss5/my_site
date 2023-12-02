@@ -5,7 +5,10 @@
     <link rel="icon" href="/icon/logo_no_background.png">
     <title>Тхэквондо</title>
     <link rel="stylesheet" type="text/css" href="/styles/theme.css">
-    <script type="module" src="/js/about.js"></script>
+    <script type="module">
+        import { open_md } from "/wasm/main.js";
+        open_md("/texts/about.md");
+    </script>
     </head>
     <body>
         <div id="panel">
@@ -18,7 +21,7 @@
                 <a href="/pages/certificates.html" id="panel_links">| О сертификатах |</a>
             </div>
         </div>
-        <div id="md_insert_data">ff</div>
+        <div id="md_insert_data"></div>
         <div id="footer">
             <p>Powered by Yaroslav Semenov</p>
         </div>

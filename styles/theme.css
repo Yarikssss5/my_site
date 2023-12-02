@@ -1,4 +1,3 @@
-
 #panel {
     text-align: center;
     height: 45px;
@@ -36,10 +35,18 @@
     text-decoration-style: none;
 }
 
-#md_insert_data {
+div#md_insert_data {
+    height: 100%;
+    width: 100%;
+    height: 100%;
+}
+object {
     text-align: center;
-    box-sizing: border-box;
-    padding: 10px;
+}
+
+#md_insert_data {
+    height: max-content;
+    text-align: center;
     border-color: #000;
     border-radius: 2px;
     border-width: 2px;

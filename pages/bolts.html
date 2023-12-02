@@ -5,7 +5,10 @@
     <link rel="icon" href="/icon/logo_no_background.png">
     <title>Тхэквондо</title>
     <link rel="stylesheet" type="text/css" href="/styles/theme.css">
-    <script type="module" src="/js/bolts.js"></script>
+    <script type="module">
+        import { open_md } from "/wasm/main.js";
+        open_md("/texts/bolts.md");
+    </script>
     </head>
     <body>
         <div id="panel">
